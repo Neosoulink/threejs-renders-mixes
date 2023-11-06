@@ -37,6 +37,7 @@ function init() {
     button.position.z = 10
     button.css3dObject.element.style.background = '#e64e77'
     background.add(button)
+    button.css3dObject.element.style.cursor = 'pointer'
 
     // make a geometry that we will clip with the DOM elememt.
     ~function() {
